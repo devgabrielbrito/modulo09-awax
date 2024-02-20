@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1200px) {
+    div.our-team div.our-team-pessoa:nth-child(1) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1156px) {
+    div.services div.servico {
+        border: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    div.services div.servico:nth-child(1) {
+        border: 0;
+    }
+
+}
+
+@media screen and (max-width: 1080px) { /*telas grandes */
+
+    .header {
+        justify-content: space-around;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header span.material-symbols-outlined {
+        display: inline-block;
+    }
+
+    header span.material-symbols-outlined:hover {
+        color: #af6e24;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+    header div.menu-e-celular {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    header div.menu-e-celular img#icone-celular {
+        height: 45px;
+        width: inherit;
+        display: block;
+    }
+
+
+    main div.introducao h1 {
+        font-size: 7vw;
+    }
+
+    main div.introducao h1#h1-marrom {
+        margin-top: -5px;
+    }
+
+    main img#icone-celular {
+        display: none;
+    }
+
+    div.premium-conteudo {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    div.premium-conteudo > img {
+        padding-right: 0px;
+    }
+
+    footer {
+        padding-bottom: 80px;
+    }
+
+    footer div.footer-conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div.footer-conteudo div.copyright {
+        position: absolute;
+        margin: auto;
+        bottom: 30px;
+    }
+
+    footer div.texto {
+        width: 70%;
+        min-width: 270px;
+    }
+
+    footer div.subscribe {
+        order: -1;
+        width: 70%;
+        min-width: 270px;
+
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) /* Tablets */ {
+    div.about-us div.about-us-conteudo {
+        flex-direction: column;
+        align-items: center;
+    }    
+    
+    div.about-us div.texto {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    div.about-us div.texto a {
+        margin: auto;
+    }
+
+    div.about-us div.video {
+        padding-bottom: 55%;
+        width: 100%;
+        position: relative;
+    }
+
+    div.about-us div.video iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+        margin-top: 20px;
+        box-shadow: 5px 10px 15px  rgba(0, 0, 0, 0.377);
+    }
+}
+
+@media screen and (max-width: 820px) {
+    div.our-team div.our-team-pessoa:nth-child(3) {
+        display: none;
+    }
+
+    div.tell-about-us {
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    div.tell-about-us div.redes-sociais {
+        gap: 25px;
+    }
+
+    div.tell-about-us div.rede-social {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    div.tell-about-us div.rede-social p {
+        margin: 0;
+    }
+
+    div.mapa {
+        padding: 0;
+        height: 500px;
+    }
+
+    div.mapa div.informacoes {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 606px) {
+    div.some-facts div.some-facts-conteudo{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    div.some-facts div.fact {
+        max-width: 80%;
+    }  
+    
+    div.some-facts div.fact:last-child {
+        display: none;
+    }
+
+    div.contact-us form div {
+        flex-direction: column;
+        gap: 25px;
+        width: 90%;
+    }
+
+    div.contact-us form > input {
+        width: 90%;
+    }
+
+    div.contact-us input:nth-child(3) {
+        margin-top: 0;
+    }
+
+    footer div.texto {
+        width: 95%;
+    }
+
+    footer div.subscribe {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div.premium-conteudo > img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    div.our-team div.our-team-pessoa {
+        width: 90%;
+    }
+
+    div.preco {
+        width: 100%;
+        min-width: 263px;
+    }
+}
